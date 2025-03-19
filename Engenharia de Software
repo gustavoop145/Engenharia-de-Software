@@ -1,1 +1,45 @@
-ola 
+Requisitos Funcionais
+ 
+
+1.	O sistema deve permitir o cadastro de medicamentos e produtos, com nome, descrição, fabricante, lote, data de validade, quantidade em estoque e preço de venda. 
+
+2.	O sistema deve permitir o cadastro de clientes com nome, CPF, telefone e histórico de compras. 
+
+3.	O sistema deve permitir a pesquisa de produtos disponíveis no estoque. 
+
+4.	O sistema deve registrar vendas associadas a um cliente.
+
+5.	O sistema deve gerar um cupom fiscal após a venda. 
+
+6.	O sistema deve atualizar automaticamente o estoque após cada venda. 
+
+7.	O sistema deve emitir alertas quando o estoque de um produto estiver baixo. 
+
+8.	O sistema deve gerar relatórios de vendas diárias, semanais e mensais. 
+
+9.	O sistema deve gerar relatórios dos produtos mais vendidos. 
+
+10.	O sistema deve gerar relatórios dos clientes mais frequentes. 
+
+11.	O sistema deve permitir a autenticação de usuários (atendente ou administrador). 
+
+12.	O sistema deve permitir que o administrador cadastre produtos e visualize o histórico completo de vendas.
+
+Requisitos Não Funcionais
+
+
+1.	O sistema deve possuir uma interface amigável e fácil de utilizar pelos atendentes. 
+
+2.	O sistema deve garantir a segurança das informações dos clientes e do estoque. 
+
+3.	O sistema deve estar disponível para uso durante todo o horário de funcionamento da farmácia. 
+
+4.	O tempo de resposta para consultas de produtos deve ser inferior a 3 segundos. 
+
+
+5.	O sistema deve gerar relatórios em formato PDF.
+
+6.	O sistema deve permitir o acesso de diferentes usuários com permissões distintas (atendente e administrador). 
+
+7.	O sistema deve ser implementado de forma que permita futuras expansões (como integração com farmácias online).
+ 
