@@ -1,45 +1,45 @@
 Requisitos Funcionais
  
 
-1.	O sistema deve permitir o cadastro de medicamentos e produtos, com nome, descrição, fabricante, lote, data de validade, quantidade em estoque e preço de venda. 
+RF-01 (Cadastro).	O sistema deve permitir o cadastro de medicamentos e produtos, com nome, descrição, fabricante, lote, data de validade, quantidade em estoque e preço de venda. 
 
-2.	O sistema deve permitir o cadastro de clientes com nome, CPF, telefone e histórico de compras. 
+RF-02 (Cadastro).	O sistema deve permitir o cadastro de clientes com nome, CPF, telefone e histórico de compras. 
 
-3.	O sistema deve permitir a pesquisa de produtos disponíveis no estoque. 
+RF-03.(Estoque).	O sistema deve permitir a pesquisa de produtos disponíveis no estoque. 
 
-4.	O sistema deve registrar vendas associadas a um cliente.
+RF-04 (Venda).	O sistema deve registrar vendas associadas a um cliente.
 
-5.	O sistema deve gerar um cupom fiscal após a venda. 
+RF-05.(Venda).	O sistema deve gerar um cupom fiscal após a venda. 
 
-6.	O sistema deve atualizar automaticamente o estoque após cada venda. 
+RF-06.(Estoque).	O sistema deve atualizar automaticamente o estoque após cada venda. 
 
-7.	O sistema deve emitir alertas quando o estoque de um produto estiver baixo. 
+RF-07.(Estoque).	O sistema deve emitir alertas quando o estoque de um produto estiver baixo. 
 
-8.	O sistema deve gerar relatórios de vendas diárias, semanais e mensais. 
+RF-08.(Relátorio).	O sistema deve gerar relatórios de vendas diárias, semanais e mensais. 
 
-9.	O sistema deve gerar relatórios dos produtos mais vendidos. 
+RF-09.(Relátorio).	O sistema deve gerar relatórios dos produtos mais vendidos. 
 
-10.	O sistema deve gerar relatórios dos clientes mais frequentes. 
+RF-010.(Relátorio).	O sistema deve gerar relatórios dos clientes mais frequentes. 
 
-11.	O sistema deve permitir a autenticação de usuários (atendente ou administrador). 
+RF-011.(Cadastro).	O sistema deve permitir a autenticação de usuários (atendente ou administrador). 
 
-12.	O sistema deve permitir que o administrador cadastre produtos e visualize o histórico completo de vendas.
+RF-012.(Cadastro).	O sistema deve permitir que o administrador cadastre produtos e visualize o histórico completo de vendas.
+
+RF-013(Pagamento). O sistema deve integrar-se com um sistema para processar o pagamento.
 
 Requisitos Não Funcionais
 
+RNF-01.(Usabilidade).	O sistema deve possuir uma interface amigável e fácil de utilizar pelos atendentes. 
 
-1.	O sistema deve possuir uma interface amigável e fácil de utilizar pelos atendentes. 
+RNF-02.(Seguraça).	O sistema deve garantir a segurança das informações dos clientes e do estoque. 
 
-2.	O sistema deve garantir a segurança das informações dos clientes e do estoque. 
+RNF-03.(Disponibilidade).	O sistema deve estar disponível para uso durante todo o horário de funcionamento da farmácia. 
 
-3.	O sistema deve estar disponível para uso durante todo o horário de funcionamento da farmácia. 
+RNF-04.(Desempenho).	O tempo de resposta para consultas de produtos deve ser inferior a 3 segundos. 
 
-4.	O tempo de resposta para consultas de produtos deve ser inferior a 3 segundos. 
+RNF-05.(Relátorio).	O sistema deve gerar relatórios em formato PDF.
 
+RNF-06.(Acessibilidade).	O sistema deve permitir o acesso de diferentes usuários com permissões distintas (atendente e administrador). 
 
-5.	O sistema deve gerar relatórios em formato PDF.
-
-6.	O sistema deve permitir o acesso de diferentes usuários com permissões distintas (atendente e administrador). 
-
-7.	O sistema deve ser implementado de forma que permita futuras expansões (como integração com farmácias online).
+RNF-07.(Backup).	O sistema deve ser implementado de forma que permita futuras expansões (como integração com farmácias online).
  
